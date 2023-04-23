@@ -32,5 +32,26 @@ def bar(x=2):
 print(bar())
 print(bar(3))
 
+def indeterminados_posicion(*args):
+    print(type(args))
+    for arg in args:
+        print(arg)
+
+indeterminados_posicion(5,"Hola",{'dia':'sabado'})
+
+### funciones anidadas
+def paso1():
+    print("paso 1")
+
+def paso2():
+    print("paso2")
+
+
+
+def main():
+    paso1()
+    paso2()
+
+main()
 
 
