@@ -54,3 +54,4 @@ else:
 templateStudents['cursos'].append(curso)
 colegio['students'].append(templateStudents)
 print(colegio)
+
