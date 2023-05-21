@@ -1,0 +1,25 @@
+.navegation{
+    background: blue;
+    color:antiquewhite;
+}
+
+.ultext{
+    list-style: none;
+    display: flex;
+}
+.ultext>li{
+    padding: 1%;
+}
+
+#banner{
+    background-color: darkgray;
+    color: antiquewhite;
+    margin: 4%;
+    font-size: 18px;
+    height: 400px;
+    width: 320px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
